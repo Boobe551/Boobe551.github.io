@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+header {
+    background: #294970;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.summary {
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.summary h2 {
+    color: #294970;
+    border-bottom: 2px solid #5a82ad;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.projects-section {
+    padding: 2rem 0;
+}
+
+.projects-section h2 {
+    color: #294970;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #5a82ad;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.projects-grid {
+    display: block; /* Overrides the grid layout for vertical stacking */
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem 0; /* Updated margin for better spacing */
+}
+
+.project-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: #294970;
+}
+
+.btn {
+    display: block;
+    background: #5a82ad;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1rem auto; /* Ensures the link is a block and centered */
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background: #294970;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #5a82ad;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-pic-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+}
