@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebubechukwu Okoye | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        /* Removed grid layout to arrange projects vertically */
+        .projects-grid {
+            display: block;
+        }
+
+        .project-card {
+            margin-bottom: 2rem;
+            /* Existing styles for project-card... */
+        }
+        /* New rule to ensure the link is a block and has its own line */
+        .project-card .btn {
+            display: block;
+            text-align: center;
+            margin: 1rem auto;
+        }
+
+        .profile-pic-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile-pic-container">
+                <img src="https://placehold.co/150x150/ffffff/000000?text=Your+Photo" alt="Princewill Okoye Profile Picture" class="profile-pic">
+            </div>
+            <h1>Ebubechukwu Princewill Okoye</h1>
+            <p class="tagline">Data Analyst & Problem Solver</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="summary">
+            <h2>Professional Summary</h2>
+            <p>
+                Highly effective Data Analyst blending scientific discipline with technical expertise in Python, Tableau, and Power BI. I specialize in developing robust data automation solutions and creating dynamic dashboards that transform complex datasets into clear, strategic insights for decision-makers. My analytical mindset, honed through my Botany degree, provides a unique advantage in tackling real-world data challenges.
+            </p>
+        </section>
+
+        <section class="projects-section">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Our Power. Our Planet; A Renewable Energy Story</h3>
+                    <p>Designed and deployed an interactive Tableau dashboard visualizing global renewable energy growth, electricity access, and generation sources to highlight the shift toward clean energy.</p>
+                    <a href="https://public.tableau.com/profile/[your-tableau-profile]" target="_blank" class="btn">View Live Dashboard</a>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/[your-video-id]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Marketing Performance Dashboard</h3>
+                    <p>Developed a comprehensive Power BI dashboard to track marketing campaign performance and customer engagement metrics, providing key insights to drive strategic decisions.</p>
+                    <a href="https://app.powerbi.com/[your-report-link]" target="_blank" class="btn">View Live Dashboard</a>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/[your-video-id-powerbi]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Naira-Dollar Rate Automation</h3>
+                    <p>Automated real-time retrieval of Naira-Dollar peer-to-peer rates, improving trading efficiency for a CEO by providing timely, actionable forex insights.</p>
+                    <img src="https://placehold.co/600x400/294970/ffffff?text=Forex+Automation+Project" alt="Naira-Dollar Rate Automation thumbnail">
+                    <a href="https://github.com/[your-github-username]/[repository-for-this-project]" target="_blank" class="btn">View on GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Investigating Temperature Change on Land</h3>
+                    <p>Analyzed 60 years of land temperature data, identifying a +1.40°C warming trend and highlighting the link between industrialization and climate policy.</p>
+                    <img src="https://placehold.co/600x400/294970/ffffff?text=Climate+Analysis+Project" alt="Climate Change Analysis thumbnail">
+                    <a href="https://www.kaggle.com/[your-kaggle-notebook]" target="_blank" class="btn">View on Kaggle</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ebubechukwu Princewill Okoye. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/[your-linkedin-username]" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/[your-github-username]" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:princewillokoye31@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
