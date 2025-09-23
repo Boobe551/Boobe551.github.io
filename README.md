@@ -10,7 +10,7 @@ This website is a static site built using a Jekyll theme. It is hosted for free 
 The site is designed to be easily navigable, with clear sections for my key projects. Each project page provides a detailed overview of the problem, my methodology, and the final insights.
 
 ### Portfolio Highlights
-Interactive Renewable Energy Dashboard: An interactive Tableau dashboard that visualizes global renewable energy growth, electricity access, and generation sources, demonstrating my skills in data visualization and stakeholder communication.
+**Interactive Renewable Energy Dashboard:** An interactive Tableau dashboard that visualizes global renewable energy growth, electricity access, and generation sources, demonstrating my skills in data visualization and stakeholder communication.
 
 **Naira-Dollar Rate Automation:** A Python-based project that automates the retrieval of real-time forex data, showcasing my expertise in data automation and engineering.
 
@@ -26,7 +26,7 @@ Interactive Renewable Energy Dashboard: An interactive Tableau dashboard that vi
 ### Getting Started
 If you'd like to run a local copy of this site, you can follow these steps:
 
-Clone this repository: git clone https://github.com/Boobe551/Boobe551.github.io.git
+**Clone this repository:** git clone https://github.com/Boobe551/Boobe551.github.io.git
 
 **Navigate to the directory:** cd Boobe551.github.io
 
