@@ -14,6 +14,8 @@ The site is designed to be easily navigable, with clear sections for my key proj
 
 **Naira-Dollar Rate Automation:** A Python-based project that automates the retrieval of real-time forex data, showcasing my expertise in data automation and engineering.
 
+**Sales Performance Dashboard Report:** A comprehensive Power BI dashboard that tracks key sales metrics, offering real-time insights to enable data-driven decisions and identify strategic growth opportunities.
+
 **Investigating Temperature Change on Land:** A data analysis project that explores climate change patterns, highlighting my ability to conduct end-to-end data analysis and research.
 
 ### Technical Stack
